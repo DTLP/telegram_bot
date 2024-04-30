@@ -30,3 +30,4 @@ Create a python venv and install the required packages
 # Telegram Bot:
 0 * * * * cd /home/me/telegram_bot/ && ./run.sh
 ```
+The script will loop through all directories specified in the `run.sh` and execute all `.py` scripts inside these directories. Remove directories you don't need from `run.sh` or rename python scripts if you want to temporarily disable them.
