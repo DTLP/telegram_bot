@@ -8,7 +8,7 @@ Get your secrets ready
 2. Get an auth token for the bot in format of `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11` and save it in `secrets/token`
 3. Get your user id from @userinfobot in format of `123456789` and save it in `secrets/user_id`
 
-Note: My secrets are encrypted with Strongbox (https://github.com/uw-labs/strongbox)
+ℹ️ Note: My secrets are encrypted with Strongbox (https://github.com/uw-labs/strongbox)
 
 Create a python venv and install the required packages
 1. `python -m venv venv`
