@@ -22,14 +22,14 @@ def check_perfect_games():
 
 def get_previous_value_from_file():
     try:
-        with open('perfect-games-count.txt', 'r') as file:
+        with open('perfect-games-count', 'r') as file:
             return int(file.read())
     except FileNotFoundError:
         return 0
 
 def get_perfect_game_ids_from_file():
     try:
-        with open('perfect-games.list', 'r') as file:
+        with open('perfect-games-list', 'r') as file:
             # Read lines and convert each line to integer
             ids = [str(line.strip()) for line in file.readlines()]
             return ids
