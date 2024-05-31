@@ -95,7 +95,7 @@ def get_name(id):
     return data_clean[id]
 
 def save_value_to_file(value):
-    with open('value.txt', 'w') as file:
+    with open('perfect-games-count', 'w') as file:
         file.write(str(value))
 
 def send_message(message):
