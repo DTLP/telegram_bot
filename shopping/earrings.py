@@ -1,7 +1,6 @@
 import telebot 
 import requests
 from bs4 import BeautifulSoup
-import schedule
 import time
 import datetime
 import os
@@ -61,13 +60,7 @@ def send_message(message):
     bot.send_message(USER_ID, message, parse_mode='html')
 
 def main():
-    # Schedule to run once a day
-    # schedule.every().day.at("12:00").do(check_price)
     check_price()
-
-    # while True:
-    #     schedule.run_pending()
-    #     time.sleep(60)
 
 if __name__ == "__main__":
     main()
