@@ -6,7 +6,6 @@ import datetime
 
 # Steam vars
 URLS = ["https://store.steampowered.com/app/1434950/HighFleet",
-        "https://store.steampowered.com/app/526870/Satisfactory",
         "https://store.steampowered.com/app/892970/Valheim"]
 
 # Telegram vars
